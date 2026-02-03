@@ -36,7 +36,7 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/smart-developer1791/smart-developer1791
+git clone https://github.com/smart-developer1791/go-fiber-auth-3d
 cd go-fiber-auth-3d
 ```
 
