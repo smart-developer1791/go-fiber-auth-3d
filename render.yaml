@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: go-fiber-auth-3d
+    env: go
+    plan: free
+    buildCommand: |
+      if [ ! -f go.mod ]; then
+        go mod init fiber-auth-3d
+      fi
+      go mod tidy
+      go build -o fiber-auth-3d .
+    startCommand: ./fiber-auth-3d
